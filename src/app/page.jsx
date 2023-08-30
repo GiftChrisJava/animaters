@@ -12,7 +12,9 @@ export default function Home() {
   return (
     <hero className={styles.hero}>
       <div className={styles.hero__content}>
-        <h2 className={styles.h2}>UNIMA CARTOONIST AND ANIMATOR’S SOCIETY</h2>
+        <h2 className={styles.h2} data-aos="fade-left">
+          CARTOONIST AND ANIMATOR’S SOCIETY
+        </h2>
 
         <div className={styles.hero__mission}>
           <p className={styles.hero__mission_statement}>
@@ -20,7 +22,7 @@ export default function Home() {
             animation production
           </p>
 
-          <button className={styles.hero__mission_btn}>
+          <button className={styles.hero__mission_btn} data-aos="fade-up">
             Our mission
             <img
               className={styles.hero__mission_img}
@@ -43,7 +45,12 @@ export default function Home() {
         <section className={styles.section}>
           <Image src={Catuni3} width={200} />
 
-          <Image className={styles.image} src={Woman} width={200} />
+          <Image
+            data-aos="slide-left"
+            className={styles.image}
+            src={Woman}
+            width={200}
+          />
         </section>
       </div>
     </hero>

@@ -15,8 +15,11 @@
 
 .header__logo .h4 {
   padding-left: 30px;
-  font-size: 20px;
+  font-size: 15px;
   color: rgb(143, 61, 6);
+  font-weight: 400;
+  align-items: center;
+  /* text-align: center; */
 }
 
 .header__menu {
