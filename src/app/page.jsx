@@ -38,17 +38,27 @@ export default function Home() {
 
         <div className={styles.hero__images}>
           <section className={styles.section}>
-            <Image src={Ok} width={150} />
+            <Image data-aos="zoom-in" src={Ok} width={150} />
 
-            <Image className={styles.image} src={IronMan} width={160} />
+            <Image
+              data-aos="zoom-in"
+              className={styles.image}
+              src={IronMan}
+              width={160}
+            />
 
-            <Image src={Catuni2} width={100} />
+            <Image data-aos="zoom-in" src={Catuni2} width={100} />
           </section>
 
           <section className={styles.section}>
-            <Image src={Catuni3} width={200} />
+            <Image data-aos="zoom-in" src={Catuni3} width={200} />
 
-            <Image className={styles.image} src={Woman} width={200} />
+            <Image
+              data-aos="zoom-in"
+              className={styles.image}
+              src={Woman}
+              width={200}
+            />
           </section>
         </div>
       </hero>
@@ -76,7 +86,6 @@ export default function Home() {
 
             <div className={styles.vngs__vision_image}>
               <Image
-                data-aos="zoom-in"
                 className={styles.vngs__vision_img}
                 src={Cartoon}
                 width={210}
@@ -112,6 +121,172 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className={styles.skills_container}>
+        <div className={styles.skills}>
+          <h3 className={styles.h3}>Skills Required</h3>
+
+          <ul className={styles.skills__list}>
+            <li className={styles.li}>
+              <div className={styles.skills__icon}>
+                <img
+                  className={styles.skills__icon_img}
+                  src="check.svg"
+                  alt="check"
+                />
+              </div>
+
+              <p className={styles.p}>3D and 2D artists</p>
+            </li>
+
+            <li className={styles.li}>
+              <div className={styles.skills__icon}>
+                <img
+                  className={styles.skills__icon_img}
+                  src="check.svg"
+                  alt="check"
+                />
+              </div>
+
+              <p className={styles.p}>Animators</p>
+            </li>
+
+            <li className={styles.li}>
+              <div className={styles.skills__icon}>
+                <img
+                  className={styles.skills__icon_img}
+                  src="check.svg"
+                  alt="check"
+                />
+              </div>
+
+              <p className={styles.p}>Video editors</p>
+            </li>
+
+            <li className={styles.li}>
+              <div className={styles.skills__icon}>
+                <img
+                  className={styles.skills__icon_img}
+                  src="check.svg"
+                  alt="check"
+                />
+              </div>
+
+              <p className={styles.p}>Directors</p>
+            </li>
+
+            <li className={styles.li}>
+              <div className={styles.skills__icon}>
+                <img
+                  className={styles.skills__icon_img}
+                  src="check.svg"
+                  alt="check"
+                />
+              </div>
+
+              <p className={styles.p}>Graphic Designers</p>
+            </li>
+
+            <li className={styles.li}>
+              <div className={styles.skills__icon}>
+                <img
+                  className={styles.skills__icon_img}
+                  src="check.svg"
+                  alt="check"
+                />
+              </div>
+
+              <p className={styles.p}>Producers</p>
+            </li>
+
+            <li className={styles.li}>
+              <div className={styles.skills__icon}>
+                <img
+                  className={styles.skills__icon_img}
+                  src="check.svg"
+                  alt="check"
+                />
+              </div>
+
+              <p className={styles.p}>Screenplay artists</p>
+            </li>
+
+            <li className={styles.li}>
+              <div className={styles.skills__icon}>
+                <img
+                  className={styles.skills__icon_img}
+                  src="check.svg"
+                  alt="check"
+                />
+              </div>
+
+              <p className={styles.p}>Costme designers</p>
+            </li>
+
+            <li className={styles.li}>
+              <div className={styles.skills__icon}>
+                <img
+                  className={styles.skills__icon_img}
+                  src="check.svg"
+                  alt="check"
+                />
+              </div>
+
+              <p className={styles.p}>Videographers</p>
+            </li>
+
+            <li className={styles.li}>
+              <div className={styles.skills__icon}>
+                <img
+                  className={styles.skills__icon_img}
+                  src="check.svg"
+                  alt="check"
+                />
+              </div>
+
+              <p className={styles.p}>Sound Engineers</p>
+            </li>
+
+            <li className={styles.li}>
+              <div className={styles.skills__icon}>
+                <img
+                  className={styles.skills__icon_img}
+                  src="check.svg"
+                  alt="check"
+                />
+              </div>
+
+              <p className={styles.p}>Writers</p>
+            </li>
+
+            <li className={styles.li}>
+              <div className={styles.skills__icon}>
+                <img
+                  className={styles.skills__icon_img}
+                  src="check.svg"
+                  alt="check"
+                />
+              </div>
+
+              <p className={styles.p}>Photographers</p>
+            </li>
+
+            <li className={styles.li}>
+              <div className={styles.skills__icon}>
+                <img
+                  className={styles.skills__icon_img}
+                  src="check.svg"
+                  alt="check"
+                />
+              </div>
+
+              <p className={styles.p}>Charecter designers</p>
+            </li>
+          </ul>
+        </div>
+
+        {/* <div className={styles.explore}></div> */}
       </div>
     </div>
   );
