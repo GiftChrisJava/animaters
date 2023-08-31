@@ -84,6 +84,7 @@
   overflow: hidden;
 }
 
+/* vision and goal  */
 .container {
   background: #ebe5e59c;
   margin-top: 5%;
@@ -130,4 +131,74 @@
 
 .vngs__vision_content .p {
   margin-top: 30px;
+}
+
+/* skills section  */
+.skills_container {
+  /* background: #121212; */
+  background: #fff;
+
+  /* margin-top: 5%; */
+}
+
+.skills {
+  max-width: 800px;
+  /* margin: 0 auto; */
+  padding: 24px;
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills .h3 {
+  color: #121212;
+  /* color: #fff; */
+
+  text-align: center;
+  font-size: 30px;
+}
+
+.skills__list {
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 22px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 3%;
+}
+
+.skills__list .li {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 12px;
+  font-weight: 500;
+
+  /* color: #fff; */
+  color: rgb(143, 61, 6);
+
+  min-width: 180px;
+}
+
+.skills__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 20px;
+  height: 20px;
+
+  /* background-color: rgb(143, 61, 6); */
+  background-color: #121212;
+
+  border-radius: 100%;
 }

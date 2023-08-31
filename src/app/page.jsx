@@ -125,16 +125,14 @@ export default function Home() {
 
       <div className={styles.skills_container}>
         <div className={styles.skills}>
-          <h3 className={styles.h3}>Skills Required</h3>
+          <h3 className={styles.h3} data-aos="flip-up">
+            Skills Required
+          </h3>
 
           <ul className={styles.skills__list}>
             <li className={styles.li}>
               <div className={styles.skills__icon}>
-                <img
-                  className={styles.skills__icon_img}
-                  src="check.svg"
-                  alt="check"
-                />
+                <img className={styles.img} src="check.svg" alt="check" />
               </div>
 
               <p className={styles.p}>3D and 2D artists</p>
