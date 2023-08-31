@@ -86,6 +86,7 @@ export default function Home() {
 
             <div className={styles.vngs__vision_image}>
               <Image
+                data-aos="zoom-in"
                 className={styles.vngs__vision_img}
                 src={Cartoon}
                 width={210}
