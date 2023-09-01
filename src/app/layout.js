@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/navbar/Navbar";
 import "./globals.css";
 import AOSWrapper from "./AOSwrapper";
+import Footer from "@/components/footer/Footer";
 
 export const metadata = {
   title: "Create Next App",
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
           <div className="container">
             <Navbar />
             {children}
+            <Footer />
           </div>
         </AOSWrapper>
       </body>
