@@ -25,10 +25,6 @@ export const Navbar = () => {
           <li className={styles.li}>
             <a href="#gallery">Gallery</a>
           </li>
-
-          <li className={styles.li}>
-            <a href="#about-us">About Us</a>
-          </li>
         </ul>
 
         <ul className={styles.header__menu_mobile}>
