@@ -127,7 +127,7 @@ export default function Home() {
       <div className={styles.skills_container}>
         <div className={styles.skills}>
           <h3 className={styles.h3} data-aos="flip-up">
-            Skills Required
+            Skills
           </h3>
 
           <ul className={styles.skills__list}>
