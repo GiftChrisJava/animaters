@@ -6,14 +6,16 @@ import { FiTarget } from "react-icons/fi";
 function Mission() {
   return (
     <div className={styles.container}>
-      <h2 className={styles.mission__title}>INSIDE OUR MISSION</h2>
+      <h2 className={styles.mission__title} data-aos="fade-left">
+        INSIDE OUR MISSION
+      </h2>
 
       <div className={styles.mission__container}>
-        <div className={styles.mission__content}>
+        <div className={styles.mission__content} data-aos="zoom-in">
           <h4 className={styles.subtitle}>
             Amplifying Advocacy Through Art
             <span className={styles.span}>
-              <FiTarget />
+              <FiTarget data-aos="zoom-in" />
             </span>
           </h4>
 
@@ -27,11 +29,11 @@ function Mission() {
           </p>
         </div>
 
-        <div className={styles.mission__content}>
+        <div className={styles.mission__content} data-aos="zoom-in">
           <h4 className={styles.subtitle}>
             Entertaining With Purpose
             <span className={styles.span}>
-              <FiTarget />
+              <FiTarget data-aos="zoom-in" />
             </span>
           </h4>
 
@@ -45,11 +47,11 @@ function Mission() {
           </p>
         </div>
 
-        <div className={styles.mission__content}>
+        <div className={styles.mission__content} data-aos="zoom-in">
           <h4 className={styles.subtitle}>
             Celebrating Culture Through Animation
             <span className={styles.span}>
-              <FiTarget />
+              <FiTarget data-aos="zoom-in" />
             </span>
           </h4>
 
@@ -62,11 +64,11 @@ function Mission() {
           </p>
         </div>
 
-        <div className={styles.mission__content}>
+        <div className={styles.mission__content} data-aos="zoom-in">
           <h4 className={styles.subtitle}>
             Creativity That Catalyzes Change
             <span className={styles.span}>
-              <FiTarget />
+              <FiTarget data-aos="zoom-in" />
             </span>
           </h4>
 
