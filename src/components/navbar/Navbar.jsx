@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./navbar.module.css";
+import Link from "next/link";
 
 export const Navbar = () => {
   return (
@@ -11,19 +12,19 @@ export const Navbar = () => {
 
         <ul className={styles.header__menu}>
           <li className={styles.li}>
-            <a href="#home">Home</a>
+            <Link href="/">Home</Link>
           </li>
 
           <li className={styles.li}>
-            <a href="#activities">Activities</a>
+            <Link href="#activities">Activities</Link>
           </li>
 
           <li className={styles.li}>
-            <a href="#mission">Mission</a>
+            <Link href="#mission">Mission</Link>
           </li>
 
           <li className={styles.li}>
-            <a href="#gallery">Gallery</a>
+            <Link href="/gallery">Gallery</Link>
           </li>
         </ul>
 
