@@ -2,14 +2,7 @@ import React from "react";
 import styles from "./footer.module.css";
 import Link from "next/link";
 
-import {
-  BsFacebook,
-  BsWhatsapp,
-  BsInstagram,
-  BsTwitter,
-  BsPhone,
-  BsMailbox,
-} from "react-icons/bs";
+import { BsFacebook, BsWhatsapp, BsInstagram, BsTwitter } from "react-icons/bs";
 
 import { MdEmail, MdMail, MdPhone } from "react-icons/md";
 
@@ -23,11 +16,11 @@ export default function Footer() {
           </li>
 
           <li className={styles.li}>
-            <Link href="#activities">Activities</Link>
+            <Link href="/activities">Activities</Link>
           </li>
 
           <li className={styles.li}>
-            <Link href="#mission">Mission</Link>
+            <Link href="/mission">Mission</Link>
           </li>
 
           <li className={styles.li}>
