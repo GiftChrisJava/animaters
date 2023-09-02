@@ -16,11 +16,11 @@ export const Navbar = () => {
           </li>
 
           <li className={styles.li}>
-            <Link href="#activities">Activities</Link>
+            <Link href="/activities">Activities</Link>
           </li>
 
           <li className={styles.li}>
-            <Link href="#mission">Mission</Link>
+            <Link href="/mission">Mission</Link>
           </li>
 
           <li className={styles.li}>
