@@ -1,0 +1,85 @@
+.container {
+  max-width: 1200px;
+  margin: 2% auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+  /*background: #ebe5e59c;*/
+}
+
+.h1 {
+  font-size: 42px;
+  color: rgb(143, 61, 6);
+  font-weight: 300;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery .images {
+  gap: 15px;
+  max-width: 100%;
+  margin-top: 40px;
+  columns: 6 340px;
+  padding: 10px 30px;
+}
+
+.image_card {
+  box-shadow: 5px 10px 10px 1px rgba(0, 0, 0, 0.507);
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  margin-bottom: 14px;
+  overflow: hidden;
+
+  border: 1px solid white;
+}
+
+.image_card:hover .details {
+  bottom: 0;
+}
+
+.details {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  padding: 15px 20px;
+  transition: bottom 0.1s ease;
+  background: linear-gradient(to top, #000000b0);
+  color: white;
+}
+
+.load_more {
+  margin: 50px 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2rem;
+  padding: 12px 27px;
+  background: #000;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.image_info {
+  background: white;
+  color: black;
+
+  padding: 5px;
+  width: 100%;
+  line-height: 30px;
+}
+
+.image_desc {
+  justify-content: flex-start;
+  font-weight: 500;
+}
