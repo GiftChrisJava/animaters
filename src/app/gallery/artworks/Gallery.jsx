@@ -8,6 +8,7 @@ import img1 from "../../../../public/pic 3.jpeg";
 import img2 from "../../../../public/ok.jpg";
 import img3 from "../../../../public/cartoon.jpg";
 import img4 from "../../../../public/woman.jpg";
+import Link from "next/link";
 
 const images = [
   {
@@ -78,13 +79,14 @@ export const Gallery = () => {
       <div className={styles.images}>
         {images.map((image) => (
           <div key={image.id} className={styles.image_card}>
-            <Image src={image.url} alt={image.alt} className={styles.img} />
+            <Link href={`/gallery/${image.id}`}>
+              <Image src={image.url} alt={image.alt} className={styles.img} />
 
-            <div className={styles.image_info}>
-              <p className={styles.image_desc}>By {image.artist}</p>
-              <h3>{image.desc}</h3>
-            
-            </div>           
+              <div className={styles.image_info}>
+                <p className={styles.image_desc}>By {image.artist}</p>
+                <h3>{image.desc}</h3>
+              </div>
+            </Link>
           </div>
         ))}
       </div>

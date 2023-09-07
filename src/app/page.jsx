@@ -10,13 +10,16 @@ import Catuni3 from "../../public/catuni3.jpg";
 import Cartoon from "../../public/cartoon.jpg";
 import movie from "../../public/movie.jpg";
 
+import check from "../../public/check.svg";
+import rightArrow from "../../public/arrow-up-right.svg";
+
 export default function Home() {
   return (
     <div>
       <hero className={styles.hero}>
         <div className={styles.hero__content}>
           <h2 className={styles.h2} data-aos="fade-left">
-            CARTOONIST AND ANIMATOR’S SOCIETY
+            CARTOONIST AND ANIMATOR&rsquo;S SOCIETY
           </h2>
 
           <div className={styles.hero__mission}>
@@ -27,9 +30,9 @@ export default function Home() {
 
             <button className={styles.hero__mission_btn} data-aos="fade-up">
               Our mission
-              <img
+              <Image
                 className={styles.hero__mission_img}
-                src="arrow-up-right.svg"
+                src={rightArrow}
                 alt="arrow-right"
               />
             </button>
@@ -45,21 +48,21 @@ export default function Home() {
               className={styles.image}
               src={IronMan}
               width={160}
-		alt="iron man"
+              alt="iron man"
             />
 
-            <Image data-aos="zoom-in" src={Catuni2} width={100} alt="cartoon"/>
+            <Image data-aos="zoom-in" src={Catuni2} width={100} alt="cartoon" />
           </section>
 
           <section className={styles.section}>
-            <Image data-aos="zoom-in" src={Catuni3} width={200} alt="cartoon"/>
+            <Image data-aos="zoom-in" src={Catuni3} width={200} alt="cartoon" />
 
             <Image
               data-aos="zoom-in"
               className={styles.image}
               src={Woman}
               width={200}
-alt="woman"
+              alt="woman"
             />
           </section>
         </div>
@@ -135,7 +138,7 @@ alt="woman"
           <ul className={styles.skills__list}>
             <li className={styles.li}>
               <div className={styles.skills__icon}>
-                <img className={styles.img} src="check.svg" alt="check" />
+                <Image className={styles.Image} src={check} alt="check" />
               </div>
 
               <p className={styles.p}>3D and 2D artists</p>
@@ -143,9 +146,9 @@ alt="woman"
 
             <li className={styles.li}>
               <div className={styles.skills__icon}>
-                <img
+                <Image
                   className={styles.skills__icon_img}
-                  src="check.svg"
+                  src={check}
                   alt="check"
                 />
               </div>
@@ -155,9 +158,9 @@ alt="woman"
 
             <li className={styles.li}>
               <div className={styles.skills__icon}>
-                <img
+                <Image
                   className={styles.skills__icon_img}
-                  src="check.svg"
+                  src={check}
                   alt="check"
                 />
               </div>
@@ -167,9 +170,9 @@ alt="woman"
 
             <li className={styles.li}>
               <div className={styles.skills__icon}>
-                <img
+                <Image
                   className={styles.skills__icon_img}
-                  src="check.svg"
+                  src={check}
                   alt="check"
                 />
               </div>
@@ -179,9 +182,9 @@ alt="woman"
 
             <li className={styles.li}>
               <div className={styles.skills__icon}>
-                <img
+                <Image
                   className={styles.skills__icon_img}
-                  src="check.svg"
+                  src={check}
                   alt="check"
                 />
               </div>
@@ -191,9 +194,9 @@ alt="woman"
 
             <li className={styles.li}>
               <div className={styles.skills__icon}>
-                <img
+                <Image
                   className={styles.skills__icon_img}
-                  src="check.svg"
+                  src={check}
                   alt="check"
                 />
               </div>
@@ -203,9 +206,9 @@ alt="woman"
 
             <li className={styles.li}>
               <div className={styles.skills__icon}>
-                <img
+                <Image
                   className={styles.skills__icon_img}
-                  src="check.svg"
+                  src={check}
                   alt="check"
                 />
               </div>
@@ -215,9 +218,9 @@ alt="woman"
 
             <li className={styles.li}>
               <div className={styles.skills__icon}>
-                <img
+                <Image
                   className={styles.skills__icon_img}
-                  src="check.svg"
+                  src={check}
                   alt="check"
                 />
               </div>
@@ -227,9 +230,9 @@ alt="woman"
 
             <li className={styles.li}>
               <div className={styles.skills__icon}>
-                <img
+                <Image
                   className={styles.skills__icon_img}
-                  src="check.svg"
+                  src={check}
                   alt="check"
                 />
               </div>
@@ -239,9 +242,9 @@ alt="woman"
 
             <li className={styles.li}>
               <div className={styles.skills__icon}>
-                <img
+                <Image
                   className={styles.skills__icon_img}
-                  src="check.svg"
+                  src={check}
                   alt="check"
                 />
               </div>
@@ -251,9 +254,9 @@ alt="woman"
 
             <li className={styles.li}>
               <div className={styles.skills__icon}>
-                <img
+                <Image
                   className={styles.skills__icon_img}
-                  src="check.svg"
+                  src={check}
                   alt="check"
                 />
               </div>
@@ -263,9 +266,9 @@ alt="woman"
 
             <li className={styles.li}>
               <div className={styles.skills__icon}>
-                <img
+                <Image
                   className={styles.skills__icon_img}
-                  src="check.svg"
+                  src={check}
                   alt="check"
                 />
               </div>
@@ -275,9 +278,9 @@ alt="woman"
 
             <li className={styles.li}>
               <div className={styles.skills__icon}>
-                <img
-                  className={styles.skills__icon_img}
-                  src="check.svg"
+                <Image
+                  className={styles.skills__icon_Image}
+                  src={check}
                   alt="check"
                 />
               </div>

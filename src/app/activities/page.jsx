@@ -15,7 +15,12 @@ function Activities() {
           </h1>
 
           <div className={styles.activity__header_img}>
-            <Image className={styles.img} src={Create} alt="activities" data-aos="zoom-in" />
+            <Image
+              className={styles.img}
+              src={Create}
+              alt="activities"
+              data-aos="zoom-in"
+            />
           </div>
         </div>
 
@@ -118,10 +123,10 @@ function Activities() {
             <h4 className={styles.activity__title}>10. Online Presence</h4>
 
             <p className={styles.activity__desc}>
-              Create a social media presence for the club to showcase members'
-              artwork, share updates, and engage with a wider audience. This can
-              include platforms like Instagram, Facebook, YouTube, or a
-              dedicated website
+              Create a social media presence for the club to showcase
+              members&rsquo; artwork, share updates, and engage with a wider
+              audience. This can include platforms like Instagram, Facebook,
+              YouTube, or a dedicated website
             </p>
           </div>
         </div>
