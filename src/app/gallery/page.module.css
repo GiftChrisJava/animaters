@@ -1,6 +1,18 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1%;
+  margin-bottom: 5%;
+}
+
 .gallery_choose_gallery {
-  font-size: 100px;
+  font-size: 60px;
   margin: 20px 0;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
 }
 
 .gallery__items {
@@ -9,16 +21,16 @@
 }
 
 .item {
-  border: 5px solid #bbb;
+  border: 5px solid rgb(143, 61, 6);
   border-radius: 5px;
-  width: 300px;
-  height: 400px;
+  width: 350px;
+  height: 470px;
   position: relative;
   background-size: cover !important;
 }
 
 .item:hover .title {
-  color: #53c28b;
+  color: rgb(143, 61, 6);
 }
 
 .item:nth-child(1) {
