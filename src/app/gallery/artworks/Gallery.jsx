@@ -80,14 +80,11 @@ export const Gallery = () => {
           <div key={image.id} className={styles.image_card}>
             <Image src={image.url} alt={image.alt} className={styles.img} />
 
-            <div className={styles.details}>
-              <small>click image to commment and like</small>
-            </div>
-
             <div className={styles.image_info}>
               <p className={styles.image_desc}>By {image.artist}</p>
               <h3>{image.desc}</h3>
-            </div>
+            
+            </div>           
           </div>
         ))}
       </div>
