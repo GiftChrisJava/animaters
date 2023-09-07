@@ -6,7 +6,7 @@ const ArtGallery = () => {
   return (
     <div className={styles.container}>
       <h1 className={styles.gallery_choose_gallery}>Choose a gallery</h1>
-      <div className={styles.gallery__items}>
+      <div className={styles.gallery__items} data-aos="zoom-in">
         <Link href="/gallery/artworks" className={styles.item}>
           <span className={styles.title}>Artworks</span>
         </Link>
