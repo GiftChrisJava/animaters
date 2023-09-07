@@ -15,7 +15,7 @@ function Activities() {
           </h1>
 
           <div className={styles.activity__header_img}>
-            <Image className={styles.img} src={Create} data-aos="zoom-in" />
+            <Image className={styles.img} src={Create} alt="activities" data-aos="zoom-in" />
           </div>
         </div>
 

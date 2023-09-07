@@ -59,7 +59,7 @@ function Mission() {
             Our mission is to celebrate and preserve Malawian culture by using
             animation and cartoons to unearth forgotten stories, revive fading
             traditions, and ignite a cultural renaissance that bridges
-            generations and inspires a global appreciation for the nation's rich
+            generations and inspires a global appreciation for the nations rich
             heritage
           </p>
         </div>

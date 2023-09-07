@@ -38,26 +38,28 @@ export default function Home() {
 
         <div className={styles.hero__images}>
           <section className={styles.section}>
-            <Image data-aos="zoom-in" src={Ok} width={150} />
+            <Image data-aos="zoom-in" src={Ok} width={150} alt="iron man" />
 
             <Image
               data-aos="zoom-in"
               className={styles.image}
               src={IronMan}
               width={160}
+		alt="iron man"
             />
 
-            <Image data-aos="zoom-in" src={Catuni2} width={100} />
+            <Image data-aos="zoom-in" src={Catuni2} width={100} alt="cartoon"/>
           </section>
 
           <section className={styles.section}>
-            <Image data-aos="zoom-in" src={Catuni3} width={200} />
+            <Image data-aos="zoom-in" src={Catuni3} width={200} alt="cartoon"/>
 
             <Image
               data-aos="zoom-in"
               className={styles.image}
               src={Woman}
               width={200}
+alt="woman"
             />
           </section>
         </div>
