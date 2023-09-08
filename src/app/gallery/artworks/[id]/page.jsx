@@ -81,9 +81,9 @@ function page({ params }) {
       <div className={styles.main_container}>
         <div className={styles.image_desc_container}>
           <div className={styles.image_like_wrapper}>
-            <Image className={styles.img} src={image.url} alt="artwork" />
+            <Image className={styles.img} src={image.url} alt="artwork" data-aos="zoom-in"/>
 
-            <div className={styles.icon_like_wrapper}>
+            <div className={styles.icon_like_wrapper} data-aos="zoom-in">
               <AiFillHeart className={styles.heart} />
               <h5 className={styles.numb}>120</h5>
             </div>
