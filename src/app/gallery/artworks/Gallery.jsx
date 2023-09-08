@@ -2,8 +2,6 @@ import React from "react";
 import styles from "./art.module.css";
 import Image from "next/image";
 
-import { AiFillLike } from "react-icons/ai";
-
 import img1 from "../../../../public/pic 3.jpeg";
 import img2 from "../../../../public/ok.jpg";
 import img3 from "../../../../public/cartoon.jpg";
@@ -79,7 +77,7 @@ export const Gallery = () => {
       <div className={styles.images}>
         {images.map((image) => (
           <div key={image.id} className={styles.image_card}>
-            <Link href={`/gallery/${image.id}`}>
+            <Link href={`/artworks/${image.id}`}>
               <Image src={image.url} alt={image.alt} className={styles.img} />
 
               <div className={styles.image_info}>
