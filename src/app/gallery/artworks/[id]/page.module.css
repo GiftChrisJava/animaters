@@ -178,10 +178,9 @@
   margin-top: 8%;
   max-height: 500px;
   overflow-y: scroll;
-  background-color: #99949460;
   padding: 10px;
 
-  max-width: 400px;
+  max-width: 500px;
   margin: 0 auto;
   border-radius: 15px;
   padding: 2px 15px;
@@ -192,13 +191,17 @@
   padding: 5px;
   /* border: 1px solid #ccc; */
   background: #f9f9f9;
-  border-radius: 10px;
   padding-left: 15px;
+  border-bottom: 1px solid #121212;
 }
 .comment_small {
   color: rgb(143, 61, 6);
 }
 
+.comment_h4 {
+  font-size: medium;
+  font-weight: 300;
+}
 .comments_container::-webkit-scrollbar {
   width: 5px;
 }

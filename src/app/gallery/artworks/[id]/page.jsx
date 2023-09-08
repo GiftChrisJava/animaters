@@ -9,7 +9,7 @@ import Image from "next/image";
 
 import styles from "./page.module.css";
 
-import { AiFillLike } from "react-icons/ai";
+import { AiFillHeart } from "react-icons/ai";
 
 const images = [
   {
@@ -84,7 +84,7 @@ function page({ params }) {
             <Image className={styles.img} src={image.url} alt="artwork" />
 
             <div className={styles.icon_like_wrapper}>
-              <AiFillLike className={styles.heart} />
+              <AiFillHeart className={styles.heart} />
               <h5 className={styles.numb}>120</h5>
             </div>
           </div>
