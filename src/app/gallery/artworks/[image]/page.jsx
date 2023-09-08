@@ -5,6 +5,8 @@ import img2 from "../../../../../public/ok.jpg";
 import img3 from "../../../../../public/cartoon.jpg";
 import img4 from "../../../../../public/woman.jpg";
 
+import Image from "next/image";
+
 import styles from "./page.module.css";
 
 import { AiFillLike } from "react-icons/ai";
@@ -129,7 +131,7 @@ function page({ params }) {
 
         <div className={styles.comments_container} id="comments_container">
           <div className={styles.comment}>
-            <small className={styles.comment_small}>John Masamba</small>
+            <small className={styles.comment_small}>John Masamba </small>
             <h4 className={styles.comment_h4}>hhshs shss hs shhhss</h4>
           </div>
 
