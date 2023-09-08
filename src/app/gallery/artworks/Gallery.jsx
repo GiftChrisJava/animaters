@@ -79,7 +79,6 @@ export const Gallery = () => {
           <div key={image.id} className={styles.image_card}>
             <Link href={`/gallery/artworks/${image.id}`}>
               <Image src={image.url} alt={image.alt} className={styles.img} />
-
               <div className={styles.image_info}>
                 <p className={styles.image_desc}>By {image.artist}</p>
                 <h3>{image.desc}</h3>
