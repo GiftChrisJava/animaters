@@ -77,7 +77,7 @@ export const Gallery = () => {
       <div className={styles.images}>
         {images.map((image) => (
           <div key={image.id} className={styles.image_card}>
-            <Link href={`/gallery/${image.id}`}>
+            <Link href={`/gallery/artworks/image/${image.id}`}>
               <Image src={image.url} alt={image.alt} className={styles.img} />
               <div className={styles.image_info}>
                 <p className={styles.image_desc}>By {image.artist}</p>
