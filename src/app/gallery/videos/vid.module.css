@@ -1,0 +1,38 @@
+.container {
+  max-width: 1200px;
+  margin: 2% auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10%;
+  /*background: #ebe5e59c;*/
+}
+
+.h1 {
+  font-size: 42px;
+  color: rgb(143, 61, 6);
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.list_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  row-gap: 30px;
+  column-gap: 16px;
+  margin-top: 15px;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.h4 {
+  color: #000;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+  justify-content: flex-start;
+}
