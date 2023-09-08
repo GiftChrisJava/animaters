@@ -188,11 +188,11 @@
 
 .comment {
   margin: 18px 0;
-  padding: 5px;
+  padding: 5px 0;
   /* border: 1px solid #ccc; */
-  background: transparent;
+  background: #f1f1f1;
   padding-left: 15px;
-  border-bottom: 1px solid #121212;
+  /* border-bottom: 1px solid #121212; */
 }
 .comment_small {
   color: rgb(143, 61, 6);
