@@ -190,7 +190,7 @@
   margin: 18px 0;
   padding: 5px;
   /* border: 1px solid #ccc; */
-  background: #f9f9f9;
+  background: transparent;
   padding-left: 15px;
   border-bottom: 1px solid #121212;
 }
