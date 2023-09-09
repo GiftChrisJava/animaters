@@ -92,7 +92,7 @@ export default function Page({ params }) {
           
 		
 		<video controls>
-            <source src={video} type="video/mp4" alt="video"/>
+            <source src="../../../../../public/video.mp4" type="video/mp4" alt="video"/>
           </video>
 
             <div className={styles.play_vid_info}>
