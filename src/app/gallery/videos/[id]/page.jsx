@@ -80,7 +80,7 @@ const videos = [
   },
 ];
 
-function page({ params }) {
+export default function Page({ params }) {
   const video = videos.find((vid) => vid.id == params.id);
 
   return (
@@ -88,7 +88,7 @@ function page({ params }) {
       <div className={styles.play_container}>
         <div className={styles.row}>
           <div className={styles.play_video}>
-            <CldVideoPlayer src={video.url} width="1920" height="1080" />
+            <CldVideoPlayer src={video.url}  />
 
             <div className={styles.play_vid_info}>
               <span className={styles.span}>
@@ -194,4 +194,4 @@ function page({ params }) {
   );
 }
 
-export default page;
+
