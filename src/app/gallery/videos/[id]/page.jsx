@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import { CldVideoPlayer } from "next-cloudinary";
 
 import styles from "./page.module.css";
 
@@ -13,13 +14,15 @@ import thumbnail5 from "../../../../../public/thumbnail5.png";
 import thumbnail6 from "../../../../../public/thumbnail6.png";
 import thumbnail7 from "../../../../../public/thumbnail7.png";
 
+import video from "../../../../../public/video.mp4";
+
 const videos = [
   {
     id: 1,
     artist: "Haywood Liuma Java",
     alt: "artwork",
-    url: "",
-    desc: "Short film about our works and various projects",
+    url: video,
+    desc: "Short film about our works and various projects Short film about our works and various projects",
     thumbnailURL: thumbnail1,
   },
 
@@ -27,16 +30,16 @@ const videos = [
     id: 2,
     artist: "James Kaonga",
     alt: "artwork",
-    url: "",
-    desc: "Short film about our works and various projects",
+    url: video,
+    desc: "Short film about our works and various projects Short film about our works and various projects",
     thumbnailURL: thumbnail2,
   },
   {
     id: 5,
     artist: "Mayamiko Juma",
     alt: "artwork",
-    url: "",
-    desc: "Short film about our works and various projects",
+    url: video,
+    desc: "Short film about our works and various projects Short film about our works and various projects",
     thumbnailURL: thumbnail5,
   },
 
@@ -44,8 +47,8 @@ const videos = [
     id: 3,
     artist: "Caleb Clouds",
     alt: "artwork",
-    url: "",
-    desc: "Short film about our works and various projects",
+    url: video,
+    desc: "Short film about our works and various projects Short film about our works and various projects",
     thumbnailURL: thumbnail3,
   },
 
@@ -53,8 +56,8 @@ const videos = [
     id: 4,
     artist: "Sizothini",
     alt: "artwork",
-    url: "",
-    desc: "Short film about our works and various projects",
+    url: video,
+    desc: "Short film about our works and various projects Short film about our works and various projects",
     thumbnailURL: thumbnail4,
   },
 
@@ -62,8 +65,8 @@ const videos = [
     id: 7,
     artist: "James Kaonga",
     alt: "artwork",
-    url: "",
-    desc: "Short film about our works and various projects",
+    url: video,
+    desc: "Short film about our works and various projects Short film about our works and various projects",
     thumbnailURL: thumbnail7,
   },
 
@@ -71,8 +74,8 @@ const videos = [
     id: 6,
     artist: "James Kaonga",
     alt: "artwork",
-    url: "",
-    desc: "Short film about our works and various projects",
+    url: video,
+    desc: "Short film about our works and various projects Short film about our works and various projects",
     thumbnailURL: thumbnail6,
   },
 ];
@@ -80,5 +83,113 @@ const videos = [
 export const page = ({ params }) => {
   const video = videos.find((vid) => vid.id == params.id);
 
-  return <div></div>;
+  return (
+    <div>
+      <div className={styles.play_container}>
+        <div className={styles.row}>
+          <div className={styles.play_video}>
+            <CldVideoPlayer src={video.url} width="1920" height="1080" />
+
+            <div className={styles.play_vid_info}>
+              <span className={styles.span}>
+                <AiFillHeart className={styles.img} />
+                125
+              </span>
+            </div>
+
+            <p className={styles.vd_desc}>{video.desc}</p>
+
+            <form className={styles.form}>
+              <div className={styles.subscription__form}>
+                <input
+                  className={styles.input}
+                  type="text"
+                  name="user"
+                  id="user"
+                  required
+                  placeholder="Type your name"
+                />
+              </div>
+
+              <div className={styles.subscription__form}>
+                <input
+                  className={styles.input_comment}
+                  type="text"
+                  name="comment"
+                  required
+                  id="comment"
+                  placeholder="Type a short comment here"
+                />
+                <button type="submit" className={styles.submit__btn}>
+                  Add
+                </button>
+              </div>
+            </form>
+
+            <div className={styles.comment_container}>
+              <div className={styles.old_comment}>
+                <div>
+                  <h3 className={styles.comment_small}>Jack Nicholas</h3>
+
+                  <p>
+                    A global computer networking providing a variety and
+                    communication facilities, constisting of interconnected
+                    networks using standard networking tools
+                  </p>
+                </div>
+              </div>
+
+              <div className={styles.old_comment}>
+                <div>
+                  <h3 className={styles.comment_small}>Jack Nicholas</h3>
+
+                  <p>
+                    A global computer networking providing a variety and
+                    communication facilities, constisting of interconnected
+                    networks using standard networking tools
+                  </p>
+                </div>
+              </div>
+
+              <div className={styles.old_comment}>
+                <div>
+                  <h3 className={styles.comment_small}>Jack Nicholas</h3>
+
+                  <p>
+                    A global computer networking providing a variety and
+                    communication facilities, constisting of interconnected
+                    networks using standard networking tools
+                  </p>
+                </div>
+              </div>
+
+              <div className={styles.old_comment}>
+                <div>
+                  <h3 className={styles.comment_small}>Jack Nicholas</h3>
+
+                  <p>
+                    A global computer networking providing a variety and
+                    communication facilities, constisting of interconnected
+                    networks using standard networking tools
+                  </p>
+                </div>
+              </div>
+
+              <div className={styles.old_comment}>
+                <div>
+                  <h3 className={styles.comment_small}>Jack Nicholas</h3>
+
+                  <p>
+                    A global computer networking providing a variety and
+                    communication facilities, constisting of interconnected
+                    networks using standard networking tools
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
