@@ -90,9 +90,6 @@ export default function Page({ params }) {
         <div className={styles.row}>
           <div className={styles.play_video}>
 	<CldVideoPlayer
-		id="video
- 		width="1920"
-		height="1080"
                 src={video.url}
 	/>	
 
