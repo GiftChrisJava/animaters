@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 
+import {CldVideoPlayer} from "next-cloudinary";
 import styles from "./page.module.css";
 
 import { AiFillHeart } from "react-icons/ai";
@@ -88,10 +89,12 @@ export default function Page({ params }) {
       <div className={styles.play_container}>
         <div className={styles.row}>
           <div className={styles.play_video}>
-		
-	   <video controls >
-		<source src={video.url} type="video/mp4" alt={video.alt}/>
-		</video>
+	<CldVideoPlayer
+		id="video
+ 		width="1920"
+		height="1080"
+                src={video.url}
+	/>	
 
             <div className={styles.play_vid_info}>
               <span className={styles.span}>
