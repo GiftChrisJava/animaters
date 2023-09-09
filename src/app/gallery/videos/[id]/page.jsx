@@ -1,7 +1,6 @@
 "use client"
 import React from "react";
 import Image from "next/image";
-import { CldVideoPlayer } from "next-cloudinary";
 
 import styles from "./page.module.css";
 
@@ -89,7 +88,10 @@ export default function Page({ params }) {
       <div className={styles.play_container}>
         <div className={styles.row}>
           <div className={styles.play_video}>
-            <CldVideoPlayer src={video.url}  />
+		
+	   <video controls >
+		<source src={video.url} type="video/mp4" alt={video.alt}/>
+		</video>
 
             <div className={styles.play_vid_info}>
               <span className={styles.span}>
