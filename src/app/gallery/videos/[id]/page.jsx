@@ -80,7 +80,7 @@ const videos = [
   },
 ];
 
-export const page = ({ params }) => {
+function page({ params }) {
   const video = videos.find((vid) => vid.id == params.id);
 
   return (
@@ -192,4 +192,6 @@ export const page = ({ params }) => {
       </div>
     </div>
   );
-};
+}
+
+export default page;
