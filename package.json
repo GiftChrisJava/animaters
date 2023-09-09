@@ -12,11 +12,13 @@
     "aos": "^2.3.4",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
-    "file-loader": "^6.2.0",
     "next": "13.4.19",
     "next-cloudinary": "^4.21.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.10.1"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0"
   }
 }
