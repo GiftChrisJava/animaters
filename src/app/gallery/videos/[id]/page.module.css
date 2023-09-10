@@ -1,14 +1,13 @@
 /* ----- play video page ----- */
 .play_container {
   /* padding-left: 2%; */
-  max-width: 750px;
+  max-width: 800px;
   margin: 0 auto;
 align-items: center;
   justify-content: center;
 }
 
 .play_video {
-  flex-basis: 100%;
 width: 1080px;
 height:750px;
 align-items: center;
@@ -22,8 +21,6 @@ gap: 10px;
 }
 
 .play_video .video {
- 
-  height:auto;
 align-items: center;
   justify-content: center;
 }
@@ -54,7 +51,7 @@ align-items: center;
 }
 
 .comment_container {
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
   margin-top: 7%;
   max-height: 500px;
@@ -62,6 +59,7 @@ align-items: center;
   display :flex;
   flex-direction : column;
  gap: 28px;
+ padding : 20px;
 }
 
 .old_comment {
@@ -178,36 +176,4 @@ align-items: center;
   background: rgba(143, 61, 6, 0.432);
   border-radius: 50px;
   height: 5px;
-}
-
-@media (max-width: 900px) {
-  .play_video {
-    flex-basis: 100%;
-  }
-
-  .right-sidebar {
-    flex-basis: 100%;
-    margin-top: 20px;
-  }
-
-  .play_container {
-    padding-left: 5%;
-  }
-
-  .vid-desc {
-    padding-left: 0;
-  }
-
-  .play_video .play_vid_info a {
-    margin-top: 10px;
-  }
-
-  .old_comment {
-    margin-top: 10px;
-    align-items: flex-start;
-  }
-
-  .add-comment input {
-    margin-left: 2%;
-  }
 }
