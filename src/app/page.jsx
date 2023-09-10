@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
-
+import Link from "next/link";
 import IronMan from "../../public/iron.jpg";
 import Woman from "../../public/woman.jpg";
 import Ok from "../../public/ok.jpg";
@@ -27,15 +27,18 @@ export default function Home() {
               Promoting culture, advocacy and entertainment through cartoon and
               animation production
             </p>
-
-            <button className={styles.hero__mission_btn} data-aos="fade-up">
-              Our mission
+             
+            <Link href="/gallery"> 
+	<button className={styles.hero__mission_btn} data-aos="fade-up">
+              View gallery
               <Image
                 className={styles.hero__mission_img}
                 src={rightArrow}
                 alt="arrow-right"
               />
             </button>
+</Link>
+            
           </div>
         </div>
 

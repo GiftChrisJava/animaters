@@ -7,12 +7,16 @@ export const Navbar = () => {
     <header>
       <nav className={styles.header__nav}>
         <div className={styles.header__logo}>
-          <h4 className={styles.h4}>CAAS</h4>
+          <h4 className={styles.h4}>CAS</h4>
         </div>
 
         <ul className={styles.header__menu}>
           <li className={styles.li}>
             <Link href="/">Home</Link>
+          </li>
+
+<li className={styles.li}>
+            <Link href="/gallery">Gallery</Link>
           </li>
 
           <li className={styles.li}>
@@ -23,9 +27,7 @@ export const Navbar = () => {
             <Link href="/mission">Mission</Link>
           </li>
 
-          <li className={styles.li}>
-            <Link href="/gallery">Gallery</Link>
-          </li>
+         
         </ul>
 
         <ul className={styles.header__menu_mobile}>
