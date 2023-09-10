@@ -89,14 +89,14 @@ export default function Page({ params }) {
       <div className={styles.play_container}>
         <div className={styles.row}>
           <div className={styles.play_video}>
-            <div className={styles.play_video}>
               <ReactPlayer
+		className={styles.video}
                 url={video.url}
                 controls
-                width="100%"
-                height="100%"
+                
               />
-            </div>
+	 </div>
+      
 
             <div className={styles.play_vid_info}>
               <span className={styles.span}>
@@ -195,7 +195,7 @@ export default function Page({ params }) {
                 </div>
               </div>
             </div>
-          </div>
+         
         </div>
       </div>
     </div>
