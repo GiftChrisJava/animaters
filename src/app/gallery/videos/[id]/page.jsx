@@ -90,7 +90,12 @@ export default function Page({ params }) {
         <div className={styles.row}>
           <div className={styles.play_video}>
             <div className={styles.play_video}>
-              <ReactPlayer url={videoUrl} controls width="100%" height="100%" />
+              <ReactPlayer
+                url={video.url}
+                controls
+                width="100%"
+                height="100%"
+              />
             </div>
 
             <div className={styles.play_vid_info}>
