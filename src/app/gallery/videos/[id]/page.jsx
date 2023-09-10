@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 
 //import { CldVideoPlayer } from "next-cloudinary";
 import styles from "./page.module.css";
+import ReactPlayer from "react-player";
 
 import { AiFillHeart } from "react-icons/ai";
 
@@ -15,7 +15,7 @@ import thumbnail5 from "../../../../../public/thumbnail5.png";
 import thumbnail6 from "../../../../../public/thumbnail6.png";
 import thumbnail7 from "../../../../../public/thumbnail7.png";
 
-import video from "../../../../../public/video.mp4";
+const videoUrl = "https://www.youtube.com/watch?v=ysz5S6PUM-U";
 
 const videos = [
   {
@@ -89,11 +89,9 @@ export default function Page({ params }) {
       <div className={styles.play_container}>
         <div className={styles.row}>
           <div className={styles.play_video}>
-          
-		
-		<video controls>
-            <source src="../../../../../public/video.mp4" type="video/mp4" alt="video"/>
-          </video>
+            <div className={styles.play_video}>
+              <ReactPlayer url={videoUrl} controls width="100%" height="100%" />
+            </div>
 
             <div className={styles.play_vid_info}>
               <span className={styles.span}>
