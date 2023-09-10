@@ -15,14 +15,14 @@ import thumbnail5 from "../../../../../public/thumbnail5.png";
 import thumbnail6 from "../../../../../public/thumbnail6.png";
 import thumbnail7 from "../../../../../public/thumbnail7.png";
 
-const videoUrl = "https://www.youtube.com/watch?v=ysz5S6PUM-U";
+const videoUrl = "https://youtu.be/u8dZ8UWtds0?si=QAEvjkeAdyaWnbm7";
 
 const videos = [
   {
     id: 1,
     artist: "Haywood Liuma Java",
     alt: "artwork",
-    url: video,
+    url: videoUrl,
     desc: "Short film about our works and various projects Short film about our works and various projects",
     thumbnailURL: thumbnail1,
   },
@@ -31,7 +31,7 @@ const videos = [
     id: 2,
     artist: "James Kaonga",
     alt: "artwork",
-    url: video,
+    url: videoUrl,
     desc: "Short film about our works and various projects Short film about our works and various projects",
     thumbnailURL: thumbnail2,
   },
@@ -39,7 +39,7 @@ const videos = [
     id: 5,
     artist: "Mayamiko Juma",
     alt: "artwork",
-    url: video,
+    url: videoUrl,
     desc: "Short film about our works and various projects Short film about our works and various projects",
     thumbnailURL: thumbnail5,
   },
@@ -48,7 +48,7 @@ const videos = [
     id: 3,
     artist: "Caleb Clouds",
     alt: "artwork",
-    url: video,
+    url: videoUrl,
     desc: "Short film about our works and various projects Short film about our works and various projects",
     thumbnailURL: thumbnail3,
   },
@@ -57,7 +57,7 @@ const videos = [
     id: 4,
     artist: "Sizothini",
     alt: "artwork",
-    url: video,
+    url: videoUrl,
     desc: "Short film about our works and various projects Short film about our works and various projects",
     thumbnailURL: thumbnail4,
   },
@@ -66,7 +66,7 @@ const videos = [
     id: 7,
     artist: "James Kaonga",
     alt: "artwork",
-    url: video,
+    url: videoUrl,
     desc: "Short film about our works and various projects Short film about our works and various projects",
     thumbnailURL: thumbnail7,
   },
@@ -75,7 +75,7 @@ const videos = [
     id: 6,
     artist: "James Kaonga",
     alt: "artwork",
-    url: video,
+    url: videoUrl,
     desc: "Short film about our works and various projects Short film about our works and various projects",
     thumbnailURL: thumbnail6,
   },
