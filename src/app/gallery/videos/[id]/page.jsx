@@ -94,7 +94,7 @@ export default function Page({ params }) {
                 url={video.url}
                 controls
 		width="100%"
-                height="100%"
+                height="750px"
               />
 	 </div>
       
