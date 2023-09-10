@@ -22,7 +22,6 @@ gap: 10px;
 .play_video .video {
 align-items: center;
   justify-content: center;
-  height=auto;
 }
 
 .play_video .play_vid_info {
