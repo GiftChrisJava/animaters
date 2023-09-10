@@ -1,14 +1,16 @@
 /* ----- play video page ----- */
 .play_container {
   /* padding-left: 2%; */
-  max-width: 800px;
+  max-width: 750px;
   margin: 0 auto;
 }
 
 .play_video {
   flex-basis: 100%;
-width: 100%;
+width: 1080px;
 height:750px;
+align-items: center;
+  justify-content: center;
 }
 
 .row{
@@ -50,12 +52,12 @@ gap: 10px;
 .comment_container {
   max-width: 600px;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 7%;
   max-height: 500px;
   overflow-y: scroll;
   display :flex;
   flex-direction : column;
- gap: 20px;
+ gap: 28px;
 }
 
 .old_comment {
