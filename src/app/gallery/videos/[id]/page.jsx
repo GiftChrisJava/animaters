@@ -93,6 +93,7 @@ export default function Page({ params }) {
 		className={styles.video}
                 url={video.url}
                 controls
+               width="100%"
                 
               />
 	 </div>
